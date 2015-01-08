@@ -80,7 +80,16 @@
 							$exhibitPage) . '">' . 
                             cul_insert_angle_brackets(metadata($exhibitPage, 'title')) . '&nbsp;&raquo;</a></h3>';
                     echo $html;
-                    $pageText = '<p>' . exhibit_builder_page_text(1) . '</p>';
+                    // fcd1, 01/08/15:
+                    // function exhibit_builder_page_text(), available in plugin Exhibit Builder version 2.1.1,
+                    // has been removed from Exhibit Builder 3.1.1, which is the version bundled with Omeka 2.2.2 .
+                    // Old code:                                                     
+                    // $pageText = '<p>' . exhibit_builder_page_text(1) . '</p>';
+                    // New code (Exhibit Builder 3.1.1 uses content blocks):
+                    $pageBlocks = $exhibitPage->getPageBlocks();
+                    $textBlock = $pageBlocks[0];
+                    $pageText = '<p>' . $textBlock->text . '</p>';
+                    // End of new code
                     echo $pageText;
                   ?>
                 <?php endforeach; ?>
