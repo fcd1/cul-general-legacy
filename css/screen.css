@@ -1423,6 +1423,13 @@ body.burgundy {
   margin-bottom: 2%;
 }
 
+.layout-file-text .exhibit-items.left.fullsize {
+  width: 48%;
+  float: left;  
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
 .layout-gallery .gallery-showcase.right.with-left img,
 .layout-gallery .gallery-showcase.left.with-right img {
   width: 100%;
