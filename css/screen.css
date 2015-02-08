@@ -1418,8 +1418,29 @@ body.burgundy {
 
 .layout-file-text .exhibit-items.right.fullsize {
   width: 48%;
-  float: right;  margin-left: 2%;
+  float: right;  
+  margin-left: 2%;
   margin-bottom: 2%;
+}
+
+.layout-gallery .gallery-showcase.right.with-left img {
+  width: 100%;
+}
+
+.layout-gallery .gallery-text.showcase-right.gallery-left {
+  width: 48%;
+  float: right;
+}
+
+.exhibit-block .exhibit-items a.link-to-item-page {
+  margin-bottom: 20px;
+}
+
+.exhibit-block .exhibit-gallery-item a.link-to-item-page {
+  margin-bottom: 10px;
+}
+.exhibit-block .gallery-showcase a.link-to-item-page {
+  margin-bottom: 10px;
 }
 
 /* fcd1, Feb 2015: */
