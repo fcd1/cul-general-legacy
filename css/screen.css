@@ -1389,6 +1389,11 @@ body.burgundy {
 /* fcd1, Feb 2015: */
 /* START of Changes for move to Omeka 2.2.2 (and ExhibitBuilder 3.1.3) */
 
+.exhibit-block.layout-file-text {
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
 .layout-gallery .exhibit-gallery-item {
   width: 22%;
   float: none;
@@ -1409,6 +1414,12 @@ body.burgundy {
 .layout-gallery .exhibit-gallery-item img {
   max-width: 160px;
   max-height: 160px;
+}
+
+.layout-file-text .exhibit-items.right.fullsize {
+  width: 48%;
+  float: right;  margin-left: 2%;
+  margin-bottom: 2%;
 }
 
 /* fcd1, Feb 2015: */
