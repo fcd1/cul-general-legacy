@@ -78,7 +78,8 @@
                       cul_legacy_exhibit_builder_render_exhibit_page();
                     } else {
                       echo cul_general_breadcrumb($firstChild); 
-                      cul_legacy_exhibit_builder_render_exhibit_page($firstChild);
+                      // cul_legacy_exhibit_builder_render_exhibit_page($firstChild);
+		      exhibit_builder_render_exhibit_page($firstChild);
                     }
                   ?>
                 </div> <!-- end class="exhibit-content"-->
