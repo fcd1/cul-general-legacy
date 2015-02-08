@@ -1423,13 +1423,19 @@ body.burgundy {
   margin-bottom: 2%;
 }
 
-.layout-gallery .gallery-showcase.right.with-left img {
+.layout-gallery .gallery-showcase.right.with-left img,
+.layout-gallery .gallery-showcase.left.with-right img {
   width: 100%;
 }
 
 .layout-gallery .gallery-text.showcase-right.gallery-left {
   width: 48%;
   float: right;
+}
+
+.layout-gallery .gallery-text.showcase-left.gallery-right {
+  width: 48%;
+  float: left;
 }
 
 .exhibit-block .exhibit-items a.link-to-item-page {
