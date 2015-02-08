@@ -1431,6 +1431,7 @@ body.burgundy {
 .layout-gallery .gallery-text.showcase-right.gallery-left {
   width: 48%;
   float: right;
+  clear: right;
 }
 
 .layout-gallery .gallery-text.showcase-left.gallery-right {
