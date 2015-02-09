@@ -1457,9 +1457,7 @@ body.burgundy {
   margin-bottom: 20px;
 }
 
-.exhibit-block .exhibit-gallery-item a.link-to-item-page {
-  margin-bottom: 10px;
-}
+.exhibit-block .exhibit-gallery-item a.link-to-item-page,
 .exhibit-block .gallery-showcase a.link-to-item-page {
   margin-bottom: 10px;
 }
