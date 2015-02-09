@@ -1417,6 +1417,7 @@ body.burgundy {
 }
 
 .layout-file-text .exhibit-items.right.fullsize {
+  max-width: 48%; /* fcd1, 02/09/15: need this to supersede smaller value from layout.css */
   width: 48%;
   float: right;  
   margin-left: 2%;
@@ -1424,6 +1425,7 @@ body.burgundy {
 }
 
 .layout-file-text .exhibit-items.left.fullsize {
+  max-width: 48%; /* fcd1, 02/09/15: need this to supersede smaller value from layout.css */
   width: 48%;
   float: left;  
   margin-right: 2%;
@@ -1447,6 +1449,7 @@ body.burgundy {
 }
 
 .exhibit-block .exhibit-items a.link-to-item-page {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
