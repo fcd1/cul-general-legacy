@@ -1452,6 +1452,10 @@ body.burgundy {
   float: left;
 }
 
+.exhibit-block .exhibit-item-caption {
+  padding-top: 1em;
+}
+
 .exhibit-block .exhibit-items a.link-to-item-page {
   margin-top: 20px;
   margin-bottom: 20px;
