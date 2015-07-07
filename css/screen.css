@@ -1450,6 +1450,7 @@ body.burgundy {
 .layout-gallery .gallery-text.showcase-left.gallery-right {
   width: 48%;
   float: left;
+  clear: left;
 }
 
 .exhibit-block .exhibit-item-caption {
